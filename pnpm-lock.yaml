@@ -1,0 +1,74 @@
+dependencies:
+  bs-fetch: 0.6.2
+  isomorphic-fetch: 2.2.1
+devDependencies:
+  '@reasonml-community/graphql-ppx': 1.0.0-ffacbe8.0_bs-platform@8.2.0
+  bs-platform: 8.2.0
+lockfileVersion: 5.1
+packages:
+  /@reasonml-community/graphql-ppx/1.0.0-ffacbe8.0_bs-platform@8.2.0:
+    dependencies:
+      bs-platform: 8.2.0
+    dev: true
+    peerDependencies:
+      bs-platform: ^8.1.0
+    requiresBuild: true
+    resolution:
+      integrity: sha512-kWK8dO/IkePORzcg8kx2qBBE85V6OclOl+fL02FTZ5Mj+PP9XNHL8iv7B9imV27NAFxi8lrV+lC2xPmYwMkE2w==
+  /bs-fetch/0.6.2:
+    dev: false
+    resolution:
+      integrity: sha512-VXEjp8kY3vHPckaoy3d96Bx0KYjJAPLNISBwfpwMN26K6DtuZYwI2HKhx7zeHBajz1bRArfx7O8OOLcdtujMvg==
+  /bs-platform/8.2.0:
+    dev: true
+    hasBin: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-quvmUac/ZxGDsT7L5+6RNXrLPvLHkWFownacaqlwVoyAm770bPyupTRU49ALPGk3HpjfD5eE+lpGdOSPtuwJiA==
+  /encoding/0.1.13:
+    dependencies:
+      iconv-lite: 0.6.2
+    dev: false
+    resolution:
+      integrity: sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A==
+  /iconv-lite/0.6.2:
+    dependencies:
+      safer-buffer: 2.1.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-2y91h5OpQlolefMPmUlivelittSWy0rP+oYVpn6A7GwVHNE8AWzoYOBNmlwks3LobaJxgHCYZAnyNo2GgpNRNQ==
+  /is-stream/1.1.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
+  /isomorphic-fetch/2.2.1:
+    dependencies:
+      node-fetch: 1.7.3
+      whatwg-fetch: 3.4.0
+    dev: false
+    resolution:
+      integrity: sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
+  /node-fetch/1.7.3:
+    dependencies:
+      encoding: 0.1.13
+      is-stream: 1.1.0
+    dev: false
+    resolution:
+      integrity: sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==
+  /safer-buffer/2.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+  /whatwg-fetch/3.4.0:
+    dev: false
+    resolution:
+      integrity: sha512-rsum2ulz2iuZH08mJkT0Yi6JnKhwdw4oeyMjokgxd+mmqYSd9cPpOQf01TIWgjxG/U4+QR+AwKq6lSbXVxkyoQ==
+specifiers:
+  '@reasonml-community/graphql-ppx': ^1.0.0-beta.22
+  bs-fetch: ^0.6.2
+  bs-platform: ^8.2.0
+  isomorphic-fetch: ^2.2.1
