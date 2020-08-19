@@ -1,3 +1,3 @@
-  %raw
-  {|require('isomorphic-fetch')|};
-  include Fetch;
+%raw
+{|require('isomorphic-fetch')|};
+include Fetch;

@@ -6,7 +6,8 @@
     "start": "bsb -make-world -w",
     "demo": "node src/Demo.bs.js",
     "clean": "bsb -clean-world",
-    "schema": "npx get-graphql-schema https://json-placeholder-graphql.herokuapp.com/graphql -j > graphql_schema.json"
+    "schema": "npx get-graphql-schema https://json-placeholder-graphql.herokuapp.com/graphql -j > graphql_schema.json",
+    "format": "find src -name \"*.re\" -or -name \"*.rei\"  | xargs bsrefmt --in-place"
   },
   "keywords": [
     "BuckleScript"
