@@ -1,25 +1,23 @@
-# Basic Reason Template
+# How Do I get to the type with graphql-ppx
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
-
-# Build
-
-```bash
-# for yarn
-yarn build
-
-# for npm
-npm run build
-```
-
-# Build + Watch
-
-```bash
-# for yarn
-yarn start
-
-# for npm
-npm run start
+```sh
+❯ node src/Demo.bs.js
+None
+handleuser
+handleuser undefined
+undefined
+undefined
+{
+  data: {
+    user: {
+      id: 1,
+      username: 'Bret',
+      email: 'Sincere@april.biz',
+      phone: '1-770-736-8031 x56442',
+      website: 'hildegard.org'
+    }
+  }
+}
 ```
 
 # endpoint courtesy of [json-placeholder-graphql](https://github.com/Martin-Stankard/json-placeholder-graphql)
