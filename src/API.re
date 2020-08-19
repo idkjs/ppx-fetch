@@ -2,6 +2,7 @@ let rest = "https://jsonplaceholder.typicode.com/";
 let gql = "https://json-placeholder-graphql.herokuapp.com/graphql";
 
 include UnFetch;
+
 let makeErrorJson = err => {
   let error = Js.String.make(err);
   let json = Js.Dict.empty();
