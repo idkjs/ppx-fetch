@@ -4,6 +4,7 @@
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
+    "demo": "node src/Demo.bs.js",
     "clean": "bsb -clean-world",
     "schema": "npx get-graphql-schema https://json-placeholder-graphql.herokuapp.com/graphql -j > graphql_schema.json"
   },
