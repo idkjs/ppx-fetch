@@ -2,11 +2,11 @@ dependencies:
   bs-fetch: 0.6.2
   isomorphic-fetch: 2.2.1
 devDependencies:
-  '@reasonml-community/graphql-ppx': 1.0.0-ffacbe8.0_bs-platform@8.2.0
+  '@reasonml-community/graphql-ppx': 1.0.1_bs-platform@8.2.0
   bs-platform: 8.2.0
 lockfileVersion: 5.1
 packages:
-  /@reasonml-community/graphql-ppx/1.0.0-ffacbe8.0_bs-platform@8.2.0:
+  /@reasonml-community/graphql-ppx/1.0.1_bs-platform@8.2.0:
     dependencies:
       bs-platform: 8.2.0
     dev: true
@@ -14,7 +14,7 @@ packages:
       bs-platform: ^8.1.0
     requiresBuild: true
     resolution:
-      integrity: sha512-kWK8dO/IkePORzcg8kx2qBBE85V6OclOl+fL02FTZ5Mj+PP9XNHL8iv7B9imV27NAFxi8lrV+lC2xPmYwMkE2w==
+      integrity: sha512-lYPM6J5lth3VWyzOdAIEerStK70xm0jObC86iyhrfl7lm7RFls0W+QyxbOhajpzl8MwFtNGq5gYZAi/E9GL7bw==
   /bs-fetch/0.6.2:
     dev: false
     resolution:
@@ -68,7 +68,7 @@ packages:
     resolution:
       integrity: sha512-rsum2ulz2iuZH08mJkT0Yi6JnKhwdw4oeyMjokgxd+mmqYSd9cPpOQf01TIWgjxG/U4+QR+AwKq6lSbXVxkyoQ==
 specifiers:
-  '@reasonml-community/graphql-ppx': ^1.0.0-beta.22
+  '@reasonml-community/graphql-ppx': ^1.0.1
   bs-fetch: ^0.6.2
   bs-platform: ^8.2.0
   isomorphic-fetch: ^2.2.1

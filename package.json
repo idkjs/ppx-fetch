@@ -15,7 +15,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@reasonml-community/graphql-ppx": "^1.0.0-beta.22",
+    "@reasonml-community/graphql-ppx": "^1.0.1",
     "bs-platform": "^8.2.0"
   },
   "dependencies": {
