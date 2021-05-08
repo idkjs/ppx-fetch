@@ -15,11 +15,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@reasonml-community/graphql-ppx": "^1.0.1",
-    "bs-platform": "^8.2.0"
+    "@reasonml-community/graphql-ppx": "^1.2.0",
+    "bs-platform": "^9.0.2"
   },
   "dependencies": {
     "bs-fetch": "^0.6.2",
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^3.0.0"
   }
 }
