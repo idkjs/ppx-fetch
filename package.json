@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "bs-fetch": "^0.6.2",
+    "formdata-polyfill": "^3.0.20",
     "isomorphic-fetch": "^3.0.0"
   }
 }

@@ -4,10 +4,12 @@ specifiers:
   '@reasonml-community/graphql-ppx': ^1.2.0
   bs-fetch: ^0.6.2
   bs-platform: ^9.0.2
+  formdata-polyfill: ^3.0.20
   isomorphic-fetch: ^3.0.0
 
 dependencies:
   bs-fetch: 0.6.2
+  formdata-polyfill: 3.0.20
   isomorphic-fetch: 3.0.0
 
 devDependencies:
@@ -34,6 +36,10 @@ packages:
     hasBin: true
     requiresBuild: true
     dev: true
+
+  /formdata-polyfill/3.0.20:
+    resolution: {integrity: sha512-TAaxIEwTBdoH1TWndtUH1T0/GisUHwmOKcV5hjkR/iTatHBJSOHb563FP86Lra5nXo3iNdhK7HPwMl5Ihg71pg==}
+    dev: false
 
   /isomorphic-fetch/3.0.0:
     resolution: {integrity: sha512-qvUtwJ3j6qwsF3jLxkZ72qCgjMysPzDfeV240JHiGZsANBYd+EEuu35v7dfrJ9Up0Ak07D7GGSkGhCHTqg/5wA==}
